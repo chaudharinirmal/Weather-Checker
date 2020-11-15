@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>weatherapp</title>
+    </head>
+    <script>
+    function abc()
+        {
+			
+            var x=document.getElementById("id1").value;
+			console.log(x);
+            window.location.href="https://samples.openweathermap.org/data/2.5/weather?q="+x+"&mode=html&appid=ec0874e66507b962751322502d3dd018"
+        }
+    
+    
+    </script>
+    
+    
+    <body background="C:\Users\lenovo\Desktop\myweatherapp\www\humidity.png">
+        <center>
+    <input id="id1" type="text" placeholder="Enter City Name"><br><br>
+        <button onclick="abc()">Get Current Weather</button>
+    
+        </center>
+    </body>
+
+
+
+</html>
